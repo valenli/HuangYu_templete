@@ -1,61 +1,61 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: black;
-  }
-  
-  .logo img {
-    width: 100px; /* 調整 logo 圖片的寬度 */
-  }
-  
-  .navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .navigation li {
-    margin-left: 20px;
-  }
-  
-  .navigation li:first-child {
-    margin-left: 0;
-  }
-  
-  .navigation a {
-    text-decoration: none;
-    color: white;
-    opacity: 0.8;
-    font-weight: bold;
-  }
-  
-  .navigation a:hover {
-    color: #555;
-  }
-  .banner {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* 使banner撐滿整個網頁 */
-    overflow: hidden; /* 隱藏圖片超出部分 */
-  }
-  
-  .banner-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* 使圖片填滿整個容器 */
-    opacity: 0.5; /* 調整透明度 */
-  }
-  .footer-content{
-    text-align: center;
-    padding: 20px;
-    color: white;
-    background-color: black;
-    opacity: 0.8;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+.logo img {
+  width: 100px; /* 調整 logo 圖片的寬度 */
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #555;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* 使banner撐滿整個網頁 */
+  overflow: hidden; /* 隱藏圖片超出部分 */
+}
+
+.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 使圖片填滿整個容器 */
+  opacity: 0.5; /* 調整透明度 */
+}
+.footer-content {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+}

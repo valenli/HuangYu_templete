@@ -1,5 +1,9 @@
 import "./App.css";
 import weblogo from "./assets/tigerlogo.png";
+import tigerbanner from "./assets/tigerbanner.png";
+
+
+
 function App() {
   return (
     <>
@@ -26,6 +30,21 @@ function App() {
           </ul>
         </nav>
       </header>
+      <div className="banner">
+      <img className="banner-img" src={tigerbanner} alt="Banner" />
+      <div className="banner-content">
+        <h1>Welcome to Our Website!</h1>
+        <p>Discover Amazing Products and Services.</p>
+        <a href="#learn-more" className="btn">Learn More</a>
+      </div>
+    </div>
+    <div className="footer">
+<footer>
+  <div className="footer-content">
+    <p>Copyright © 2024 Tiger Pill.All Rights Reserved.</p>
+  </div>
+</footer>
+    </div>
     </>
   );
 }

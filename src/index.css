@@ -1,9 +1,15 @@
 .header {
+  position: fixed; /* 将 Header 固定在页面顶部 */
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: black;
+  opacity: 0.8;
+  z-index: 1000; /* 确保 Header 处于最上层 */
 }
 
 .logo img {
@@ -31,6 +37,7 @@
   color: white;
   opacity: 0.8;
   font-weight: bold;
+  padding-right: 30px;
 }
 
 .navigation a:hover {
@@ -57,5 +64,35 @@
   padding: 20px;
   color: white;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+/* 針對手機螢幕 */
+@media (max-width: 767px) {
+  .navigation a{
+    display: none;
+  }
+  .logo img {
+    width: 80px; /* 调整 logo 图片的宽度 */
+  }
+}
+
+/* 針對平板電腦 */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navigation a{
+    font-size: 20px; /* 调整导航菜单的字体大小 */
+  }
+}
+
+/* 針對一般電腦 */
+@media (min-width: 1024px) {
+  .navigation a{
+    font-size: 24px; /* 调整导航菜单的字体大小 */
+  }
 }

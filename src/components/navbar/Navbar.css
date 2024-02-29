@@ -1,0 +1,47 @@
+.header {
+  position: fixed; /* 将 Header 固定在页面顶部 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  z-index: 1000; /* 确保 Header 处于最上层 */
+}
+.logo img {
+  width: 100px; /* 調整 logo 圖片的寬度 */
+}
+.navigation{
+  padding-right: 50px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.navigation a:hover {
+  color: #555;
+}
